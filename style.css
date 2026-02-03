@@ -77,3 +77,26 @@ body {
   width: 40px;
   margin-right: 10px;
 }
+
+
+@media (max-width: 768px) {
+.search{
+          gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+}
+
+  .search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+  .search button img {
+    width: 8px;
+    height: auto;
+  }
+}
