@@ -79,7 +79,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 475px) {
 .search{
           gap: 20px;
         justify-content: center;
